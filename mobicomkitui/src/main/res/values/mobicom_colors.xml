@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="whitesmoke">#f5f5f5</color>
+    <color name="contact_name">#ff0099cc</color>
+    <color name="mobitexter_main_color">#ff33B5E5</color>
+    <color name="primary_dark_color">#aeaeae</color>
+
+    <color name="instruction_color">#ff337ab7</color>
+    <color name="empty_conversation_text_color">#838b83</color>
+    <color name="edittext_hint_color">#bdbdbd</color>
+
+    <color name="sent_message_text_color">#ffffffff</color>
+    <color name="message_text_color">#ff000000</color>
+    <color name="sent_message_bg_color">#ff33B5E5</color>
+    <!--<color name="received_message_bg_color">#ffffffff</color>-->
+    <color name="received_message_bg_color">#ffffffff</color>
+
+    <!-- <color name="sent_message_bg_color">#ff3EABF6</color>-->
+
+    <color name="applozic_send_message_layout_background_color">#ffffffff</color>
+    <color name="message_details_text_color">#838b83</color>
+    <color name="conversation_list_all_background">#FFFFFFFF</color>
+    <!-- <color name="conversation_list_all_background">#FFFAFAFA</color> -->
+
+    <color name="conversation_list_background">#FFFAFAFA</color>
+    <!--  <color name="conversation_list_background">#FFF1F1F1</color> -->
+    <color name="applozic_message_status_color">#ff000000</color>
+
+
+    <color name="compose_action_button">#db4437</color>
+    <color name="message_action_button">#FFE5E4E2</color>
+
+    <color name="attachment_background_color">#FFFFFFFF</color>
+
+    <color name="incoming_call">#ff0099cc</color>
+    <color name="outgoing_call">#ff008000</color>
+
+    <color name="colorPrimary">#F69619</color>
+    <color name="colorPrimaryDark">#E5e4e2</color>
+    <color name="colorAccent">#F69619</color>
+     <color name="brown">#66BBEA</color>
+    <color name="bottom_tab_background">#f7f7f7</color>
+    <color name="grey_text">#5A5656</color>
+    <color name="dark_red">#880E4F</color>
+
+    <color name="background_color">#005A7B</color>
+    <color name="signupbutton">#47C8E3</color>
+    <color name="colorGrayDark">#88000000</color>
+    <color name="top_american_background">#CEDCE1</color>
+    <color name="graybackground">#929292</color>
+    <color name="light_sky">#bfd1d8</color>
+    <color name="yellow">#E6c214</color>
+    <color name="graylight">#c7c6c6</color>
+    <color name="reviewtxtcolor">#3787b8</color>
+    <color name="light_gray">#7F8E97</color>
+    <color name="divider_color">#BFBFBF</color>
+    <color name="grey_background">#E9E9E9</color>
+    <color name="blue">#4D7FFB</color>
+    <color name="red">#ff0000</color>
+    <color name="quickie_background">#E8e8e8</color>
+    <color name="search_view_background">#C9C9CE</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="bg_view_sms">#ffd423</color>
+    <color name="bg_view_otp">#fc6d38</color>
+    <color name="grey_action_bar">#EBEBEB</color>
+    <color name="off_white">#f1f5f7</color>
+    <color name="blue_selector">#00aeea</color>
+    <color name="red_negative_progress">#ff3333</color>
+
+    <color name="bg_color">#e3ebee</color>
+    <color name="background">#f5f1f1f1</color>
+    <color name="grey">#757575</color>
+    <color name="green">#68Ad61</color>
+    <color name="text_blue">#4B61FF</color>
+    <color name="language_english_txt_color">#A3A3B1</color>
+    <color name="language_cencel_txt_color">#A3A3B1</color>
+    <color name="language_header_txt_color">#344466</color>
+    <color name="language_select_txt_color">#0C50B5</color>
+    <color name="event_color_01">#59dbe0</color>
+    <color name="event_color_02">#f57f68</color>
+    <color name="event_color_03">#87d288</color>
+    <color name="event_color_04">#f8b552</color>
+    <color name="toolbar">#f1f1f1</color>
+    <color name="toolbar_text">#8f000000</color>
+    <color name="accent">#2789e4</color>
+    <color name="light_red">#c62424</color>
+    <color name="text_dark">#555555</color>
+    <color name="text_color_light">#888888</color>
+    <color name="hintcolor">#AAAAAA</color>
+    <color name="button_back">#f0f0f0</color>
+    <color name="tranparent">#00000000</color>
+    <color name="text_light_black">#555555</color>
+    <color name="contact_name_text_color">#ff000000</color>
+    <color name="contact_userId_text_color">#838b83</color>
+    <color name="applozic_multimedia_grid_view_background_color">#F0F0F0</color>
+
+    <color name="applozic_theme_color">#FFB3E5FC</color>
+    <color name="applozic_theme_color_primary">#F69619</color>
+    <color name="applozic_theme_color_primary_dark">#aeaeae</color>
+    <color name="applozic_theme_color_accent">#f0f0f0</color>
+    <color name="applozic_theme_color_app">#aeaeae</color>
+    <color name="applozic_theme_color_control_activated">#FFFFFFFF</color>
+    <color name="applozic_theme_color_control_highlight">#FFFFFFFF</color>
+    <color name="applozic_theme_primary_text">#FF000000</color>
+    <color name="applozic_theme_secondary_text">#FFFFFFFF</color>
+    <color name="applozic_theme_icons">#E8B16B</color>
+    <color name="applozic_theme_divider">#FFB6B6B6</color>
+    <color name="applozic_message_border_color">#ffffff</color>
+
+    <color name="error_background_color">#ff0000</color>
+    <color name="applozic_share_contact_background">#fff5f5ff</color>
+    <color name="applozic_share_contact_divider">#FFFFFF</color>
+    <color name="applozic_lite_black_color">#b2b2b2</color>
+    <color name="applozic_green_color">#5fba7d</color>
+    <color name="applozic_profile_devider_color">#F8F8F8</color>
+    <color name="applozic_location_view_divider_color">#d2d2d2</color>
+    <color name="apploizc_transparent_color">#00000000</color>
+    <color name="apploizc_white_color">#FFFFFFFF</color>
+    <color name="apploizc_black_color">#000000</color>
+    <color name="apploizc_dark_black_color">#ff000000</color>
+    <color name="apploizc_darker_gray_color">#aaa</color>
+    <color name="apploizc_gray_color">#333333</color>
+    <color name="apploizc_lite_gray_color">#666666</color>
+    <color name="apploizc_custom_channel_message_text_color">#cccccc</color>
+    <color name="apploizc_reply_sent_message_bg_color">#C0C0C0</color>
+    <color name="apploizc_reply_received_message_bg_color">#F5F5F5</color>
+
+</resources>

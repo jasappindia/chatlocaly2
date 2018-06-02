@@ -1,0 +1,77 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.firebase.firebase-perf'
+apply plugin: 'io.fabric'
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.chatlocaly"
+        minSdkVersion 16
+        targetSdkVersion 26
+        multiDexEnabled true
+
+        versionCode 1
+        versionName "1.0"
+
+    }
+    buildTypes {
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    packagingOptions {
+        //Your other packaging options go here
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/ECLIPSE_.SF'
+        exclude 'META-INF/ECLIPSE_.RSA'
+    }
+
+}
+
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    //noinspection GradleCompatible
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/mint-4.4.0.jar')
+    compile files('libs/common-lang3.jar')
+    compile project(':mobicomkitui')
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.android.support:appcompat-v7:26.0.1'
+    compile 'com.android.support:recyclerview-v7:26.0.1'
+    compile 'com.android.support:cardview-v7:26.0.1'
+    compile 'com.android.support:design:26.0.1'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.github.tibolte:agendacalendarview:1.0.4'
+    compile 'org.jsoup:jsoup:1.8.3'
+    compile 'com.android.support:support-v4:26.0.1'
+    compile 'com.yahoo.mobile.client.android.util.rangeseekbar:rangeseekbar-library:0.1.0'
+    compile 'com.google.firebase:firebase-messaging:11.0.4'
+    compile 'com.google.firebase:firebase-core:11.0.4'
+    compile 'com.google.firebase:firebase-crash:11.0.4'
+    compile 'com.google.firebase:firebase-perf:11.0.4'
+    compile 'com.android.support:support-annotations:26.0.1'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.1'
+    compile 'com.crystal:crystalrangeseekbar:1.1.3'
+    compile 'com.aurelhubert:ahbottomnavigation:2.1.0'
+    compile 'com.google.android:flexbox:0.2.5'
+    testCompile 'junit:junit:4.12'
+    compile 'com.github.fiskurgit:ChipCloud:3.0.5'
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:theme="@style/ApplozicTheme"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingRight="10dp"
+        android:background="@color/toolbar"
+        android:elevation="4dp"
+        app:theme="@style/toolbarback"
+        app:titleTextAppearance="@style/ToolbarTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/my_toolbar_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:text="Toolbar title"
+                android:singleLine="true"
+                android:textColor="@color/text_light_black"
+                android:textSize="16sp"
+                />
+            <ImageView
+                android:id="@+id/iv_businessInfo"
+                android:layout_width="25dp"
+                android:src="@drawable/info"
+                android:layout_gravity="center"
+                android:layout_height="match_parent" />
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/layout_child_activity"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start|top"
+        android:background="@color/conversation_list_all_background" />
+
+    <LinearLayout
+        android:id="@+id/footerAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:visibility="gone"></LinearLayout>
+
+</LinearLayout>

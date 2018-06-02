@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_country_list_row"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv_cityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dimen12"
+        android:paddingLeft="@dimen/dimen15"
+        android:paddingRight="@dimen/dimen15"
+        android:paddingTop="@dimen/dimen12"
+        android:singleLine="true"
+        android:text=" India "
+        android:textColor="@color/text_light_black"
+        android:textSize="@dimen/txt_medium2" />
+
+    <ImageView
+        android:id="@+id/iv_city_selected"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/isselcted"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dimen10" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divide_height"
+        android:layout_alignBottom="@+id/tv_cityName"
+        android:layout_marginTop="@dimen/dimen1"
+        android:background="@color/divider_color_light">
+    </View>
+</RelativeLayout>

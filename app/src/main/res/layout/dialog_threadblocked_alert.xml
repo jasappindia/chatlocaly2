@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/lighttransparentscreen"
+    android:gravity="center"
+    tools:context="com.chatlocaly.fragment.filter.SortFragment">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen20"
+        android:background="@drawable/roundbox"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen15">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen5"
+            android:minWidth="250dp"
+            android:paddingLeft="@dimen/dimen5"
+            android:text="@string/str_sortbty"
+            android:textColor="@color/text_color_dark"
+            android:textSize="@dimen/txt_medium" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen15"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorPrimary"
+                android:paddingBottom="@dimen/dimen5"
+                android:paddingLeft="@dimen/dimen15"
+                android:paddingRight="@dimen/dimen15"
+                android:paddingTop="@dimen/dimen5"
+                android:text="@string/str_unblock"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_medium" />
+
+
+            <TextView
+                android:id="@+id/tv_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen10"
+                android:layout_marginTop="@dimen/dimen10"
+                android:layout_toLeftOf="@+id/tv_cancel"
+                android:gravity="right"
+                android:paddingLeft="@dimen/dimen10"
+                android:text="Done"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/txt_medium"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

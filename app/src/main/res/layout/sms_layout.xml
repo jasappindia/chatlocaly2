@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_sms"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen60"
+                android:src="@mipmap/logonew" />
+
+            <com.chatlocaly.textview.TextViewReguler
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen30"
+                android:text="@string/str_chatlocaly"
+                android:textColor="@color/text_dark"
+                android:textSize="@dimen/txt_large" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/dimen20"
+                android:layout_marginTop="@dimen/dimen30"
+                android:text="@string/str_plz_enter_num"
+                android:textColor="@color/text_color_light"
+                android:textSize="@dimen/txt_medium" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen20"
+                android:layout_marginRight="@dimen/dimen20"
+
+                android:layout_marginTop="@dimen/dimen20"
+                android:background="@mipmap/textbox_bg">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/dimen15"
+                    android:text=" +91"
+                    android:textColor="@color/text_dark"
+                    android:textSize="@dimen/txt_medium2" />
+
+                <EditText
+                    android:id="@+id/edt_phonenum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:hint="@string/str_enterphone"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:paddingBottom="@dimen/dimen15"
+                    android:paddingTop="@dimen/dimen15"
+                    android:textColorHint="@color/hintcolor" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen15"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.chatlocaly.textview.TextViewReguler
+                    android:id="@+id/tv_privacyPolicy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_privacyPolicy"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/txt_small" />
+
+                <com.chatlocaly.textview.TextViewReguler
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen5"
+                    android:text="@string/str_and"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="@dimen/txt_small" />
+
+                <com.chatlocaly.textview.TextViewReguler
+                    android:id="@+id/tv_terms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimen5"
+                    android:text="@string/str_terms"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/txt_small" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_continueLogin"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen40"
+                android:background="@color/button_back"
+                android:clickable="false"
+                android:focusable="false"
+                android:paddingLeft="@dimen/dimen20"
+                android:paddingRight="@dimen/dimen20"
+                android:text="@string/str_continue"
+                android:textColor="@color/text_color_light"
+                android:textSize="@dimen/txt_small" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

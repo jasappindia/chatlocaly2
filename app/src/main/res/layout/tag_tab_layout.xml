@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tag_tab_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color_light"
+        android:text="Tags"
+        android:textSize="14sp"
+        android:textAllCaps="false"/>
+    <TextView
+        android:id="@+id/tag_tabcounter"
+        android:layout_marginBottom="@dimen/dimen5"
+        android:layout_marginLeft="@dimen/dimen3"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:visibility="gone"
+        android:background="@drawable/roundedbutton"
+        android:textColor="@color/off_white"
+        android:gravity="center"
+        android:padding="@dimen/dimen1"
+        android:text="0"
+        android:textSize="8dp" />
+</LinearLayout>

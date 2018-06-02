@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/toolbar">
+            <ImageView
+                android:id="@+id/iv_arrowBack"
+                android:layout_width="@dimen/dimen45"
+                android:padding="@dimen/dimen10"
+                android:layout_height="?attr/actionBarSize"
+
+                android:src="@drawable/ic_action_name"
+                android:layout_marginLeft="@dimen/dimen10" />
+            <TextView
+                android:id="@+id/tv_businessName"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginLeft="@dimen/dimen20"
+                android:layout_marginRight="@dimen/dimen10"
+                android:layout_toRightOf="@+id/iv_arrowBack"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Business Name"
+                android:textColor="@color/text_color_light"
+                android:textSize="@dimen/txt_medium" />
+            <ImageView
+                android:id="@+id/iv_edit"
+                android:layout_width="@dimen/dimen40"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dimen10"
+                android:padding="@dimen/dimen10"
+                android:src="@drawable/applozic_ic_action_edit"
+                android:visibility="gone" />
+            <ImageView
+                android:id="@+id/iv_share"
+                android:layout_width="@dimen/dimen40"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dimen50"
+                android:padding="@dimen/dimen10" />
+        </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/sv_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBar"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/ll_share"
+            android:layout_marginTop="@dimen/dimen8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <android.support.v4.view.ViewPager
+
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen200"></android.support.v4.view.ViewPager>
+
+                <TextView
+                    android:id="@+id/tv_discountTag"
+                    android:layout_width="@dimen/dimen70"
+                    android:layout_height="30dp"
+                    android:layout_alignTop="@+id/viewpager"
+                    android:layout_marginLeft="@dimen/dimen6"
+                    android:background="@drawable/discount"
+                    android:gravity="center_vertical"
+                    android:text="33% off"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt_small" />
+            </RelativeLayout>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabDots"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/dimen12"
+                app:tabBackground="@drawable/tab_selector"
+                app:tabGravity="center"
+                app:tabIndicatorHeight="0dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="@dimen/dimen20"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/ib_product_add_to_chat"
+
+                    android:layout_width="@dimen/dimen35"
+                    android:layout_height="@dimen/dimen35"
+                    android:layout_marginLeft="@dimen/dimen5"
+                    android:layout_marginRight="@dimen/dimen5"
+                    android:background="@color/tranparent"
+                    android:padding="@dimen/dimen6"
+                    android:src="@mipmap/forword" />
+
+                <ImageButton
+                    android:id="@+id/ib_chat"
+
+                    android:layout_width="@dimen/dimen35"
+                    android:layout_height="@dimen/dimen35"
+                    android:layout_marginLeft="@dimen/dimen5"
+                    android:layout_marginRight="@dimen/dimen5"
+                    android:background="@color/tranparent"
+                    android:padding="@dimen/dimen5"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/chat" />
+
+                <ImageButton
+                    android:id="@+id/ib_info"
+                    android:layout_width="@dimen/dimen35"
+                    android:layout_height="@dimen/dimen35"
+                    android:layout_marginLeft="@dimen/dimen5"
+                    android:layout_marginRight="@dimen/dimen5"
+                    android:background="@color/tranparent"
+                    android:padding="@dimen/dimen6"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/info" />
+
+                <ImageButton
+                    android:id="@+id/ib_share"
+                    android:layout_width="@dimen/dimen35"
+                    android:layout_height="@dimen/dimen35"
+                    android:layout_marginLeft="@dimen/dimen5"
+                    android:layout_marginRight="@dimen/dimen5"
+                    android:background="@color/tranparent"
+                    android:padding="@dimen/dimen5"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/shareicon" />
+
+                <ImageButton
+                    android:id="@+id/ib_flag"
+                    android:layout_width="@dimen/dimen35"
+                    android:layout_height="@dimen/dimen35"
+                    android:layout_marginLeft="@dimen/dimen5"
+                    android:layout_marginRight="@dimen/dimen15"
+                    android:background="@color/tranparent"
+                    android:padding="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/flagicon" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divide_height"
+                android:layout_marginTop="@dimen/dimen15"
+                android:background="@color/divider_color_light" />
+
+
+            <com.chatlocaly.textview.TextViewReguler
+                android:id="@+id/tv_productName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen40"
+                android:layout_marginTop="@dimen/dimen5"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingBottom="@dimen/dimen5"
+                android:paddingLeft="@dimen/dimen12"
+                android:paddingRight="@dimen/dimen12"
+                android:paddingTop="@dimen/dimen5"
+                android:text="TATA SALT"
+                android:textColor="@color/text_color_dark"
+                android:textSize="@dimen/txt_medium2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.chatlocaly.textview.TextViewReguler
+                    android:id="@+id/tv_proPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/dimen5"
+                    android:paddingLeft="@dimen/dimen12"
+                    android:paddingRight="@dimen/dimen5"
+                    android:singleLine="true"
+                    android:text="Rs 18"
+                    android:textColor="@color/text_color_dark"
+                    android:textSize="@dimen/txt_medium">
+
+                </com.chatlocaly.textview.TextViewReguler>
+
+                <com.chatlocaly.textview.TextViewReguler
+                    android:id="@+id/tv_proPrice_discount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/dimen5"
+                    android:paddingRight="@dimen/dimen12"
+                    android:singleLine="true"
+                    android:text="18"
+                    android:textColor="@color/text_color_dark"
+                    android:textSize="10sp"></com.chatlocaly.textview.TextViewReguler>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divide_height"
+                android:layout_marginTop="@dimen/dimen10"
+                android:background="@color/divider_color_light" />
+
+            <com.chatlocaly.textview.TextViewReguler
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen10"
+                android:paddingBottom="@dimen/dimen5"
+                android:paddingLeft="@dimen/dimen10"
+                android:paddingRight="@dimen/dimen10"
+                android:paddingTop="@dimen/dimen5"
+                android:text="@string/str_description"
+                android:textColor="@color/text_color_dark"
+                android:textSize="@dimen/txt_medium2" />
+
+            <TextView
+                android:id="@+id/tv_discription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/dimen5"
+                android:paddingLeft="@dimen/dimen12"
+                android:paddingRight="@dimen/dimen12"
+                android:paddingTop="@dimen/dimen5"
+                android:text="@string/str_unblock"
+                android:textColor="@color/text_color_light"
+                android:textSize="@dimen/text_margin" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="@dimen/dimen50"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+</RelativeLayout>

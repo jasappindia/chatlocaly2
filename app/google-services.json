@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "980338306414",
+    "firebase_url": "https://chatlocaly-app.firebaseio.com",
+    "project_id": "chatlocaly-app",
+    "storage_bucket": "chatlocaly-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980338306414:android:3fd0f5e6e33fecb2",
+        "android_client_info": {
+          "package_name": "com.chatlocaly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980338306414-t1k2bstj3rqu422sf87k5bu7qdcc8ovh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2EXZDcaOuSPUNJX5snS6ZiggjYeKJsqI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

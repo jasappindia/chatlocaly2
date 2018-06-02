@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.chatlocaly.fragment.filter.SortFragment">
+
+    <CheckBox
+        android:id="@+id/cb_popularity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="@dimen/dimen10"
+        android:layout_marginLeft="@dimen/dimen10"
+        android:layout_marginRight="@dimen/dimen10"
+        android:text="@string/popularity"
+        android:textSize="@dimen/txt_medium" />
+
+    <CheckBox
+        android:id="@+id/cb_relevance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="@dimen/dimen10"
+        android:layout_marginLeft="@dimen/dimen10"
+        android:layout_marginRight="@dimen/dimen10"
+        android:text="@string/relevance"
+        android:textSize="@dimen/txt_medium" />
+</LinearLayout>

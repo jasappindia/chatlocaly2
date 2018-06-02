@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/ll_ringtone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lighttransparentscreen"
+    >
+
+<TextView
+    android:layout_width="match_parent"
+    android:textColor="@color/colorPrimary"
+    android:text="Phone Ringtone"
+    android:background="@color/toolbar"
+    android:textStyle="bold"
+    android:padding="@dimen/dimen15"
+    android:textSize="@dimen/txt_large"
+    android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

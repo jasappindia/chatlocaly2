@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.chatlocaly.activity.UserProfileActivity">
+    <item
+        android:id="@+id/action_tag"
+        android:orderInCategory="100"
+        android:title="@string/str_tag_menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_untag"
+        android:orderInCategory="100"
+        android:title="@string/str_untag"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_block"
+        android:orderInCategory="100"
+        android:title="@string/str_block_menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_unblock"
+        android:orderInCategory="100"
+        android:title="@string/str_unblock"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_mute"
+        android:orderInCategory="100"
+        android:title="@string/str_mute"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_unmute"
+        android:orderInCategory="100"
+        android:title="@string/str_unmute_menu"
+        app:showAsAction="never" />
+
+</menu>

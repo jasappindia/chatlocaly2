@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/toolbar"
+    android:minHeight="?attr/actionBarSize"
+    local:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+    local:theme="@style/toolbarback">
+    <RelativeLayout
+        android:padding="@dimen/dimen3"
+        android:layout_marginRight="@dimen/dimen5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="left"
+            android:visibility="gone"
+            android:textAllCaps="true"
+            android:text="your Location"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10sp" />
+        <LinearLayout
+            android:layout_below="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+            <TextView
+            android:id="@+id/toolbar_cityname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="left|center_vertical"
+            android:singleLine="true"
+            android:maxLength="12"
+            android:layout_below="@+id/toolbar_title"
+            android:text="Delhi ncr "
+            android:textColor="@color/headerText"
+            android:textSize="@dimen/txt_medium" />
+            <ImageView
+                android:id="@+id/iv_city_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="@dimen/dimen7"
+                android:gravity="bottom"
+                android:src="@drawable/ic_bottom_arrow"
+                android:tint="@color/toolbartitlecolor" />
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitCenter"
+            android:padding="@dimen/dimen10"
+            android:layout_marginRight="@dimen/dimen10"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dimen7"
+            android:src="@mipmap/search1"
+             />
+
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

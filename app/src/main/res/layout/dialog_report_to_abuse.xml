@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:padding="@dimen/dimen15"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen15">
+
+
+    <com.chatlocaly.textview.TextViewReguler
+        android:id="@+id/tag"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="@dimen/dimen10"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen10"
+        android:text="@string/str_reportProduct"
+        android:textSize="@dimen/txt_large" />
+
+
+    <com.chatlocaly.textview.TextViewReguler
+        android:id="@+id/title"
+        android:layout_marginTop="@dimen/dimen10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen10"
+        android:layout_below="@id/tag"
+        android:text="@string/str_report"
+        android:textSize="@dimen/txt_medium" />
+
+    <com.chatlocaly.textview.TextViewReguler
+        android:id="@+id/reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:text="@string/str_Reason"
+        android:textSize="@dimen/txt_medium" />
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@+id/reason"
+        android:src="@mipmap/israted" />
+
+    <EditText
+        android:id="@+id/edt_reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reason"
+        android:layout_margin="@dimen/dimen5"
+        android:background="@drawable/customsearchbox"
+        android:padding="@dimen/dimen8" />
+
+
+
+    <com.chatlocaly.textview.TextViewReguler
+        android:id="@+id/descrition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_reason"
+        android:text="@string/str_description"
+        android:textSize="@dimen/txt_medium" />
+
+
+    <EditText
+        android:id="@+id/edt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descrition"
+        android:layout_margin="@dimen/dimen5"
+        android:minLines="5"
+        android:gravity="left"
+        android:background="@drawable/customsearchbox"
+        android:padding="@dimen/dimen8" />
+
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chatlocaly.fragment.filter.CategoryFragment">
+
+    <LinearLayout
+        android:id="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/dimen3"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etd_search"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen10"
+            android:layout_weight="70"
+            android:background="@drawable/customsearchbox"
+            android:padding="@dimen/dimen10"
+            android:cursorVisible="true"
+            android:drawableLeft="@mipmap/search1"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/light_gray"
+            android:ems="10"
+            android:hint="@string/str_choosebrand"
+            android:imeOptions="actionDone"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="20.0dip"
+            android:singleLine="true"
+            android:textColor="@color/colorGrayDark" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rView"
+        android:layout_below="@+id/ll_search"
+        android:paddingTop="@dimen/dimen5"
+        android:paddingBottom="@dimen/dimen5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

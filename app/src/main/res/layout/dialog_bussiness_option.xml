@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.chatlocaly.textview.TextViewLight
+            android:id="@+id/tv_Tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/dimen5"
+            android:text="@string/str_tag_menu"
+            android:textSize="11sp" />
+
+
+        <com.chatlocaly.textview.TextViewLight
+            android:id="@+id/tv_unTag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/dimen5"
+            android:text="@string/str_untag"
+            android:textSize="11sp" />
+
+
+        <com.chatlocaly.textview.TextViewLight
+            android:id="@+id/tv_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/dimen5"
+            android:text="@string/str_block_menu"
+            android:textSize="11sp" />
+
+
+        <com.chatlocaly.textview.TextViewLight
+            android:id="@+id/tv_unblock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/dimen5"
+            android:text="@string/str_unblock"
+            android:textSize="11sp" />
+
+
+        <com.chatlocaly.textview.TextViewLight
+            android:id="@+id/tv_unmute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/dimen5"
+            android:text="@string/str_unmute_menu"
+            android:textSize="11sp" />
+
+
+        <com.chatlocaly.textview.TextViewLight
+            android:id="@+id/tv_mute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/dimen5"
+            android:text="@string/str_mute"
+            android:textSize="11sp" />
+
+
+        <com.chatlocaly.textview.TextViewLight
+            android:id="@+id/tv_remove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/dimen5"
+            android:text="@string/Str_remove_menu"
+            android:textSize="11sp" />
+
+        <com.chatlocaly.textview.TextViewLight
+            android:id="@+id/tv_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/dimen5"
+            android:text="@string/str_add"
+            android:textSize="11sp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

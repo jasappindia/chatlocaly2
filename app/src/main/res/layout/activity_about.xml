@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".activity.AboutActivity">
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:local="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        local:theme="@style/toolbarback">
+
+        <LinearLayout
+            android:layout_marginLeft="-15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/iv_arrowBack"
+                android:layout_width="@dimen/dimen45"
+                android:padding="@dimen/dimen10"
+                android:layout_height="?attr/actionBarSize"
+
+                android:src="@drawable/ic_action_name"
+                android:layout_marginLeft="@dimen/dimen1"
+                />
+
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:gravity="left"
+                android:paddingLeft="@dimen/dimen10"
+                android:text="About Us"
+                android:textColor="@color/toolbartitlecolor"
+                android:textSize="@dimen/txt_medium" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="@dimen/dimen100"
+        android:layout_height="@dimen/dimen100"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen40"
+        android:src="@drawable/logo" />
+
+    <com.chatlocaly.textview.TextViewReguler
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen40"
+        android:text="@string/str_welcome"
+        android:textColor="@color/text_color_light"
+        android:textSize="@dimen/txt_huge"
+
+        />
+
+    <com.chatlocaly.textview.TextViewReguler
+        android:id="@+id/tv_versioncode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/dimen10"
+        android:layout_marginTop="@dimen/dimen20"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:paddingLeft="@dimen/dimen20"
+        android:paddingRight="@dimen/dimen20"
+        android:text="@string/app_version"
+        android:textColor="@color/text_color_light"
+        android:textSize="@dimen/txt_medium" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/dimen20"
+        android:background="@color/grey_background"
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_policy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.chatlocaly.textview.TextViewReguler
+            android:id="@+id/tv_policy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen10"
+            android:text="@string/str_privacyPolicy2"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/txt_medium" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen10"
+            android:src="@mipmap/arrow_right" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_background" />
+
+    <RelativeLayout
+        android:id="@+id/rl_terms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.chatlocaly.textview.TextViewReguler
+            android:id="@+id/tv_terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen10"
+            android:text="@string/str_toufull"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/txt_medium" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen10"
+            android:src="@mipmap/arrow_right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_background" />
+</LinearLayout>
+

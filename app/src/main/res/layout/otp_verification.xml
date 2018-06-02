@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_otp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <com.chatlocaly.textview.TextViewReguler
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen50"
+        android:text="@string/str_verifyNumber"
+        android:textColor="@color/black"
+        android:textSize="@dimen/txt_large" />
+
+    <com.chatlocaly.textview.TextViewReguler
+        android:id="@+id/tv_otpverifyLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen20"
+        android:text="@string/str_otpverifyLine"
+        android:textColor="@color/light_gray"
+        android:textSize="@dimen/txt_small" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen20"
+        android:layout_marginRight="@dimen/dimen20"
+        android:layout_marginTop="@dimen/dimen20"
+        android:elevation="@dimen/dimen3"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_inputotp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/dimen3"
+            android:background="@mipmap/textbox_bg"
+android:maxLength="6"
+            android:gravity="center"
+            android:hint="@string/str_enterotp"
+            android:inputType="number"
+            android:padding="@dimen/dimen15"
+            android:textColorHint="@color/hintcolor"
+
+             />
+        <ImageView
+            android:id="@+id/iv_checkIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/dimen10"
+            android:src="@mipmap/ic_launcher"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen5"
+        android:layout_marginTop="@dimen/dimen10"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.chatlocaly.textview.TextViewReguler
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Didn't Receive OTP?"
+            android:textColor="@color/text_color_light"
+            android:textSize="@dimen/txt_small" />
+
+        <com.chatlocaly.textview.TextViewReguler
+            android:id="@+id/tv_otp_resend"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dimen4"
+            android:text="@string/str_resend"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/txt_small"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="@dimen/dimen120"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen40"
+        android:background="#f0f0f0"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="@string/str_continue"
+        android:textColor="@color/text_color_light"
+        android:textSize="@dimen/txt_small" />
+
+</LinearLayout>

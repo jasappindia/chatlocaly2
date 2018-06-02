@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.chatlocaly.ui.RoundedImageView
+            android:id="@+id/row_iv_user"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dimen5"
+            android:paddingBottom="@dimen/dimen5"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dimen10">
+                <com.chatlocaly.textview.TextViewReguler
+                    android:id="@+id/row_tv_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:maxLines="2"
+                    android:padding="@dimen/dimen3"
+                    android:text="Vinod General Store, Mother Diary  Meg... Anurag (Owner): "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txt_medium" />
+                <com.chatlocaly.textview.TextViewReguler
+                    android:id="@+id/row_tv_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen3"
+                    android:gravity="left"
+                    android:padding="@dimen/dimen3"
+                    android:text="Anurag (Owner): Aapka ...."
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txt_small" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+
+                    <ImageView
+                        android:id="@+id/iv_notificatrion"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp" />
+                    <ImageView
+                        android:id="@+id/iv_"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp" />
+                    <TextView
+                        android:id="@+id/tv_message_count"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp" />
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/dimen5"
+    android:layout_marginBottom="@dimen/dimen5"
+    android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/cb_locality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="@dimen/dimen10"
+        android:singleLine="true"
+        android:layout_marginLeft="@dimen/dimen10"
+        android:layout_marginRight="@dimen/dimen10"
+        android:text="@string/popularity"
+        android:textSize="@dimen/txt_medium" />
+</LinearLayout>

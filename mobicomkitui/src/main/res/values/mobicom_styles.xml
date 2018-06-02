@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ActionBar styles -->
+    <style name="ApplozicActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/mobitexter_main_color</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/mobitexter_main_color</item>
+
+        <!--  It should be true otherwise action mode will not overlay toolbar -->
+        <item name="windowActionModeOverlay">true</item>
+
+        <!--  For Custom Action Mode Background Color/Drawable -->
+        <item name="actionModeBackground">@color/colorAccent</item>
+
+
+    </style>
+
+</resources>

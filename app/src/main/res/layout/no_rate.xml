@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dimen20"
+        android:layout_marginRight="@dimen/dimen20"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/rouncounerbox">
+         <!-- <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_below="@+id/tv_rate_us"
+            android:layout_width="wrap_content"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:numStars="5"
+            android:clickable="false"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:rating="0"
+            android:layout_centerHorizontal="true"
+            android:isIndicator="true"
+            android:layout_height="45dp" />
+
+-->
+<LinearLayout
+    android:id="@+id/ll_rate"
+    android:gravity="center"
+    android:padding="@dimen/dimen10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/notrated" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/notrated" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/notrated" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/notrated" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/notrated" />
+
+</LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_ok"
+            android:layout_below="@+id/ll_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="-5dp"
+            android:paddingBottom="@dimen/dimen30"
+            android:textColor="@color/text_color_light"
+            android:text="@string/no_one_rating_yet"
+            android:textSize="@dimen/txt_small"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

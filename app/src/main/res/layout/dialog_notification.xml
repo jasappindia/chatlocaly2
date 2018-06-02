@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/lighttransparentscreen"
+    android:gravity="center"
+    tools:context="com.chatlocaly.fragment.filter.SortFragment">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen20"
+        android:background="@drawable/roundbox"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen15">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen5"
+            android:minWidth="250dp"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dimen5"
+            android:text="Alert!"
+            android:textColor="@color/light_gray"
+            android:textSize="@dimen/txt_large" />
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen5"
+            android:minWidth="250dp"
+            android:paddingLeft="@dimen/dimen5"
+            android:text="@string/str_notification_dialog_message"
+            android:textColor="@color/text_color_dark"
+            android:textSize="@dimen/txt_medium" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen5"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/tv_leave_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen10"
+                android:gravity="center"
+                  android:layout_alignParentRight="true"
+                android:text="Leave on"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/txt_medium" />
+
+
+            <TextView
+                android:id="@+id/tv_turn_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen10"
+                android:layout_marginTop="@dimen/dimen10"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dimen10"
+                android:text="Turn off"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/txt_medium" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

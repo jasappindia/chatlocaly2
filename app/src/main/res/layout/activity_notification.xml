@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/ll_action"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/toolbar">
+
+                <ImageView
+                    android:id="@+id/iv_arrowBack"
+                    android:layout_width="@dimen/dimen45"
+                    android:padding="@dimen/dimen10"
+                    android:layout_height="?attr/actionBarSize"
+
+                    android:src="@drawable/ic_action_name"
+                    android:layout_marginLeft="@dimen/dimen10" />
+
+                <TextView
+                    android:id="@+id/tv_titleBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_marginLeft="@dimen/dimen20"
+                    android:layout_toRightOf="@+id/iv_arrowBack"
+                    android:gravity="center_vertical"
+                    android:text="Notification"
+                    android:textColor="@color/toolbartitlecolor"
+                    android:textSize="18dp" />
+            </RelativeLayout>
+        </android.support.design.widget.AppBarLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_features"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/cb_on_off_notification"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dimen10" />
+
+                    <TextView
+                        android:id="@+id/tv_on_off_notification"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:padding="@dimen/dimen15"
+                        android:text="Receive Notifications"
+                        android:textColor="@color/text_color_light"
+                        android:textSize="@dimen/txt_medium" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/grey_background" />
+
+                <LinearLayout
+                    android:id="@+id/ll_vibration"
+                    android:orientation="vertical"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/rl_notificationSound"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_notificationSound"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/dimen15"
+                        android:paddingTop="@dimen/dimen15"
+                        android:text="Notification Sound"
+                        android:textColor="@color/text_color_light"
+                        android:textSize="@dimen/txt_medium" />
+
+                    <TextView
+                        android:id="@+id/tv_audio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_notificationSound"
+                        android:paddingBottom="@dimen/dimen10"
+                        android:paddingLeft="@dimen/dimen15"
+                        android:text="Default Sound"
+                        android:textSize="@dimen/txt_small" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/grey_background" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_vibration"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dimen15"
+                        android:text="Vibrate"
+                        android:textColor="@color/text_color_light"
+                        android:textSize="@dimen/txt_medium" />
+
+                    <CheckBox
+                        android:id="@+id/cb_vibration_on_off"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dimen10" />
+
+                    <ImageView
+                        android:layout_below="@id/tv_vibration"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/grey_background" />
+
+                </RelativeLayout>
+                </LinearLayout>
+
+                  </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

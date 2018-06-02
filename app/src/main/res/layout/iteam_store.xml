@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_b_profile"
+            android:layout_width="90dp"
+            android:layout_height="90dp">
+
+            <com.chatlocaly.imageView.CircleImageView
+                android:id="@+id/ivr_row_iv_user"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/dimen8"
+                android:src="@mipmap/user_iconnew" />
+
+            <ImageView
+                android:id="@+id/iv_isselected"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/ivr_row_iv_user"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:src="@mipmap/isselcted" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_b_chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen8">
+
+            <com.chatlocaly.textview.TextViewReguler
+                android:id="@+id/tv_row_store_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/iv_tag"
+                android:gravity="left"
+                android:paddingRight="@dimen/dimen8"
+                android:maxLines="2"
+                android:padding="@dimen/dimen1"
+                android:text="Vinod General Store, Mother Diary  Meg... Anurag (Owner): "
+                android:textColor="@color/text_light_black"
+                android:textSize="@dimen/txt_medium" />
+
+            <com.chatlocaly.textview.TextViewReguler
+                android:id="@+id/tv_row_message_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_row_store_name"
+                android:gravity="left"
+                android:padding="@dimen/dimen1"
+                android:singleLine="true"
+                android:text="Anurag (Owner): Aapka ...."
+                android:textColor="@color/text_color_light"
+
+                android:textSize="@dimen/txt_extra_small" />
+
+            <ImageView
+                android:id="@+id/iv_notification"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/dimen5"
+                android:src="@mipmap/notnotified" />
+
+            <ImageView
+                android:id="@+id/iv_tag"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/dimen5"
+                android:layout_toLeftOf="@+id/iv_notification"
+                android:src="@mipmap/nottaqed" />
+
+            <ImageView
+                android:id="@+id/iv_rate"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/tv_row_message_first"
+                android:layout_marginTop="@dimen/dimen2"
+                android:layout_marginRight="@dimen/dimen3"
+                android:layout_marginLeft="@dimen/dimen1"
+                android:layout_marginBottom="@dimen/dimen2"
+                android:src="@mipmap/israted" />
+
+
+            <com.chatlocaly.textview.TextViewReguler
+                android:id="@+id/tv_row_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_row_message_first"
+                android:layout_marginTop="@dimen/dimen2"
+                android:layout_toRightOf="@+id/iv_rate"
+                android:gravity="left"
+                android:padding="@dimen/dimen1"
+                android:text="4.70 (687)"
+                android:textColor="@color/text_light_black"
+
+                android:textSize="@dimen/txt_small" />
+
+            <ImageView
+                android:id="@+id/iv_home_service"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/iv_rate"
+                android:layout_marginTop="@dimen/dimen2"
+                android:layout_marginRight="@dimen/dimen3"
+                android:layout_marginLeft="@dimen/dimen1"
+                android:layout_marginBottom="@dimen/dimen1"
+
+                android:src="@mipmap/nothomedelevery" />
+
+
+            <com.chatlocaly.textview.TextViewReguler
+                android:id="@+id/tv_row_home_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_rate"
+                android:layout_marginTop="@dimen/dimen2"
+                android:layout_toRightOf="@+id/iv_home_service"
+                android:gravity="left"
+                android:padding="@dimen/dimen1"
+                android:text="Up to 10 km"
+                android:textColor="@color/text_light_black"
+                android:textSize="@dimen/txt_small" />
+
+
+            <com.chatlocaly.textview.TextViewReguler
+                android:id="@+id/tv_row_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/tv_row_message_first"
+                android:layout_marginTop="@dimen/dimen3"
+                android:gravity="left"
+                android:padding="@dimen/dimen3"
+                android:visibility="invisible"
+                android:text=" 12.30 pm"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/txt_small" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/dimen5"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="@dimen/dimen30"
+        android:layout_marginRight="@dimen/dimen30">
+
+    </View>
+
+</LinearLayout>

@@ -1,0 +1,372 @@
+<resources>
+    <string name="app_name">ChatLocaly</string>
+    <string name="application_key">f7795dc359c99991ff22f1623a2875e2</string>
+    <string name="map_key">AIzaSyBYtEiHsfZaP6CSQ-8oMsOpDAbOcJlO3gY</string>
+
+
+    <string name="nav_item_contact_us">Trash</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <!--**************************dialog********************************-->
+    <string name="dialog_attachment_photo">Photo Library</string>
+    <string name="dialog_attachment_take_photo">Take Photo</string>
+    <string name="dialog_attachment_header">Edit Image</string>
+    <string name="txt_setting_header">Settings</string>
+    <string name="menu_action_all_down">All down</string>
+
+
+    <string name="menu_action_up_down">Up down</string>
+    <string name="menu_action_up_down_stack">Up down stack</string>
+
+    <string name="nav_item_rate_us">Rate Our App</string>
+    <string name="share_using">Share Using ... </string>
+    <string name="str_exit">Exit</string>
+    <string name="str_yes">YES</string>
+    <string name="str_no">No</string>
+    <string name="str_exitmessage">Are you sure you want to exit?</string>
+    <string name="str_updatemessage">
+        <b>Update Notification</b> \n\n
+      A new version of EventApp Mobile App is available.Upgrade now?</string>
+    <string name="cancel">cancel</string>
+    <string name="str_ok">Ok</string>
+    <string name="update">Upgrade</string>
+    <string name="remide">Later</string>
+    <string name="str_loading">Loading ...</string>
+    <string name="str_inbox">Inbox</string>
+    <string name="str_contacts">Contacts</string>
+    <string name="str_calendar">Calendar</string>
+    <string name="str_quickie">Task</string>
+    <string name="str_settings">Settings</string>
+
+    <string-array name="nav_drawer2_labels">
+        <item>@string/nav_item_people</item>
+        <item>@string/nav_item_group</item>
+    </string-array>
+
+    <string-array name="nav_drawer_labels_contacts">
+        <item>Bills </item>
+        <item>Settings</item>
+        S
+        <item>Feedback</item>
+        <item>Rate Us </item>
+        <item>About Us</item>
+
+    </string-array>
+
+
+    <string name="str_login_error">error</string>
+
+    <string name="str_favorite">Add favorite quickey
+    </string>
+    <string name="str_search">Search by Subject</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_field_required">Required Field</string>
+
+    <string name="action_logout">Logout</string>
+    <string name="msg_enter_mobile">Please confirm your country code and enter your phone number</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_mobile">Mobile</string>
+    <string name="lbl_next">Next</string>
+    <string name="msg_sit_back">Sit back &amp; Relax! while we verify your mobile number</string>
+    <string name="msg_manual_otp">(Enter the OTP below in case if we fail to detect the SMS automatically)</string>
+    <string name="lbl_enter_otp">Enter OTP</string>
+    <string name="lbl_submit">SUBMIT</string>
+    <string name="code">Code</string>
+    <string name="str_mobile_number">Mobile Number</string>
+    <string name="str_select_country">Select Country</string>
+    <string name="back">Back</string>
+    <string name="resendotp">  Resend  </string>
+    <string name="action_otp_message">Please enter the one time password that has been sent to your mobile number</string>
+    <string name="done">Done</string>
+    <string name="logout">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_item_people">People</string>
+    <string name="nav_item_group">Group</string>
+    <string name="new_group">New Group</string>
+    <string name="upload_image">Attach Image</string>
+    <string name="gallary">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="select">Select</string>
+    <string name="upload_image_Dialog">Upload Image</string>
+
+
+    <!-- Dialog -->
+    <string name="dialog_title">Insert link</string>
+    <string name="dialog_edit_hint">http(s)://</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="menu_undo">Undo</string>
+    <string name="menu_redo">Redo</string>
+    <string name="str_allcontacts">All Contacts</string>
+    <string name="str_done_contacts">Done</string>
+    <string name="str_fetch">Image Fetched Successfully</string>
+    <string name="str_cancelled">Cancelled</string>
+    <string name="str_attachment">Attachment</string>
+    <string name="terms_condition_autolink"><a href="http://www.jasapp.com/terms-condition.html">Terms and Conditions</a></string>
+    <string name="privacy_policy"><a href="http://www.jasapp.com/privacy-policy.html">Privacy Policy</a></string>
+    <string name="action_today">Today</string>
+    <string name="action_day_view">Day view</string>
+    <string name="action_three_day_view">3 day view</string>
+    <string name="action_week_view">Week view</string>
+    <string name="title_activity_basic">Basic Example</string>
+    <string name="title_activity_asynchronous">Asynchronous Events</string>
+    <string name="async_error">Could not download events from the internet</string>
+    <string name="what_">what is to be done ?</string>
+    <string name="due_date">Due date</string>
+    <string name="str_add_contacts">Add contacts</string>
+    <string name="overdue">Overdue</string>
+    <string name="ths_week">Upcoming weeks</string>
+    <string name="str_enter_country">Search by country </string>
+    <string name="str_logout">Are you sure you want to logout?</string>
+    <string name="str_logout_title">Logout</string>
+    <string name="str_delete">Are you sure you want to delete?</string>
+    <string name="str_delete_title">delete</string>
+
+    <string name="app_tagline">We let you take your business to new heights</string>
+    <string name="str_getstarted">Get Started</string>
+    <string name="str_joinnow">Join Now</string>
+    <string name="str_continue">CONTINUE</string>
+    <string name="str_enterpromo">Enter Promo Code</string>
+    <string name="str_enterphone">Your Phone Number</string>
+    <string name="str_enteradminPhone">Enter Admin Mobile</string>
+    <string name="str_enterotp">Enter OTP</string>
+    <string name="str_enterPassword">Enter Password</string>
+    <string name="str_allready_member">ALREADY A MEMBER?</string>
+    <string name="str_not_member">NOT A MEMBER?</string>
+    <string name="str_promoLine">Enter JOINNOW to get free premium membership for 3 months</string>
+    <string name="str_congoLine">Congratulations , you get free premium membership for 1 year </string>
+    <string name="str_loginAs">Log In As</string>
+    <string name="str_admin">ADMIN</string>
+    <string name="str_subadmin">SUB ADMIN</string>
+    <string name="str_worker">WORKER</string>
+    <string name="str_takePhoto">Take Photo</string>
+    <string name="str_chooseGallery">CHOOSE FROM GALLERY</string>
+    <string name="str_nxt">NEXT</string>
+    <string name="str_done">DONE</string>
+
+    <string name="str_privacyPolicy"><a href="https://www.chatlocaly.com/legal">Privacy Policy</a></string>
+
+    <string name="str_privacyPolicy2">Privacy Policy</string>
+    <string name="str_and">And</string>
+    <string name="str_terms"><a href="https://www.chatlocaly.com/legal">ToU</a></string>
+    <string name="str_terms2">ToU</string>
+
+    <string name="str_toufull">Term Of Use</string>
+
+    <string name="str_verifyNumber">Verify Phone Number</string>
+    <string name="str_verification">Verification Password</string>
+    <string name="str_adminNumber">Admin Phone Number</string>
+    <string name="str_otpverifyLine">A text message was sent to </string>
+
+    <!--<string name="str_adminverifyLine">A text message was sent to admin's phone </string>-->
+    <!--<string name="str_didntReceive">Didn't Receive OTP?</string>-->
+
+    <string name="str_resend">RESEND</string>
+    <string name="str_yourprofile">Your Profile</string>
+    <string name="str_profileTagLine">Please provide your name and an optional profile photo </string>
+    <string name="str_businessProfile">Business Profile Setup </string>
+    <string name="str_mandatoryalert">Please provide mandatory details marked with</string>
+    <string name="str_enterbusinessname">enter your Business name</string>
+
+    <string name="str_businessicon">Business Icon :</string>
+    <string name="str_businessName">Business Name :</string>
+    <string name="str_homeservice">Home Service :</string>
+    <string name="str_kilometers">Kilometers :</string>
+    <string name="str_subscriptionplan">Subscription Plan :</string>
+    <string name="str_chatlocaly">Welcome To ChatLocaly</string>
+    <string name="str_plz_enter_num">Please Enter Your Number</string>
+    <string name="clear_all">Clear All</string>
+    <string name="apply">Apply</string>
+    <string name="str_category">Category</string>
+    <string name="str_homeservice_name">Home service</string>
+    <string name="str_sort">Sort</string>
+    <string name="str_locality">Locality</string>
+    <string name="str_commenneeds">Commen Needs</string>
+    <string name="str_filter">Filter</string>
+    <string name="str_Location">Delhi</string>
+    <string name="str_personal">Personal needs</string>
+    <string name="str_utilites">Utilites Needs</string>
+    <string name="str_skillneeds">Skill needs</string>
+    <string name="popularity">Popularity</string>
+    <string name="relevance">Relevance</string>
+    <string name="str_chooselocality">Choose Locality</string>
+    <string name="str_choosebrand">Choose Brand</string>
+
+    <string name="str_sortbty">Sort By</string>
+    <string name="str_brand">Brand</string>
+    <string name="str_price">Price</string>
+    <string name="str_discount">Discount</string>
+    <string name="str_product">Product</string>
+    <string name="str_business">Business</string>
+    <string name="str_service">Service</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="str_welcome">Welcome To ChatLocaly</string>
+    <string name="app_version">Version 1.0.2</string>
+    <string name="str_profile">Your Profile</string>
+    <string name="str_notification">Notification</string>
+    <string name="title_activity_user_profile">Your Profile</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="str_tag_menu">Tag</string>
+    <string name="str_unmute_menu">Unmute</string>
+    <string name="str_block_menu">Block</string>
+    <string name="Str_remove_menu">Remove</string>
+    <string name="str_untag">Untag</string>
+    <string name="str_unblock">Unblock</string>
+    <string name="str_mute">Mute</string>
+    <string name="str_add">Add</string>
+    <string name="unblock_notification">Business Unmuted</string>
+    <string name="block_notification">Business Muted</string>
+
+    <string name="unblock_business">Business Unblocked</string>
+    <string name="block_business">Business Blocked</string>
+
+    <string name="tag_business">Business Taged</string>
+    <string name="untag_business">Business Untaged</string>
+    <string name="str_description">Description</string>
+    <string name="str_report">Would you like to report the listing, please tell us your concern</string>
+    <string name="str_Reason">Reason</string>
+    <string name="str_reportProduct">Report Product</string>
+    <string name="str_reporttoabuser">Business reported</string>
+    <string name="str_reporttoabuser_product">Product reported</string>
+    <string name="str_reporttoabuser_service">Service reported</string>
+
+    <string name="isfield">Please enter reason </string>
+    <string name="isdescription">Please enter description </string>
+
+    <string name="notificationUpdated">Notification status update successfully</string>
+    <string name="nameSuccessFullyupdateed">Name successfully updated</string>
+    <string name="str_check_internet_connection">Please check internet!</string>
+    <string name="no_one_rating_yet">No ratings yet</string>
+    <string name="str_Selected">1 of 25</string>
+    <string name="str_no_bill_yet">You have no bill yet</string>
+    <string name="str_confirmationcode">Confirmation Code</string>
+    <string name="str_share_confirmationcode_business">share this code with business to get paid bill</string>
+    <string name="tag_no_message">No message in your tag</string>
+    <string name="thread_no_message">No message in your Thread</string>
+    <string name="city_not_available">We are not available in your city</string>
+    <string name="str_rate_update">Rating updated successfully</string>
+    <string name="str_rate_successfully">You rated</string>
+    <string name="str_rate_business">Business Rating</string>
+    <string name="str_call_message">Do you want to call  business?</string>
+    <string name="str_call">Call</string>
+    <string name="str_rate_message">Please rate business! your last recent rating is accepted</string>
+    <string name="back_first_message">Tap again to exit</string>
+    <string name="no_internet_connected">Please check internet!</string>
+    <string name="str_retry">Retry</string>
+    <string name="str_confirmation_code">Confirmation Id Sent</string>
+    <string name="business_already_reported">Business already reported</string>
+    <string name="product_already_reported">Product already reported</string>
+    <string name="service_already_reported">Service already reported</string>
+
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="otp_code">Please  Enter six digits otp code</string>
+    <string name="str_please_select_category">Please select category</string>
+    <string name="str_notification_dialog_message">You won\'t receive any notification for any new messages</string>
+    <string name="str_no_category_selected_yet">no category selected yet</string>
+    <string name="please_wait">Please wait</string>
+    <string name="business_removed_successfully">Business removed successfully</string>
+    <string name="logout_dialog_title">Are you sure?  you will be logged out!</string>
+    <string name="str_recived">Recived:</string>
+    <string name="str_bill_date">Bill Date:</string>
+    <string name="str_rating_error">Please give rating</string>
+
+
+</resources>

@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.chatlocaly.fragment.filter.HomeServiceFragment">
+<RelativeLayout
+    android:layout_margin="@dimen/dimen10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_min"
+        android:text="0 km"
+        android:visibility="gone"
+        android:textSize="@dimen/txt_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_max"
+        android:text="Everywhere"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/txt_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+    <com.crystal.crystalrangeseekbar.widgets.CrystalSeekbar
+        android:id="@+id/rangeSeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:min_value="0"
+        app:min_start_value="0"
+        android:paddingLeft="@dimen/dimen10"
+        android:paddingRight="@dimen/dimen10"
+        android:layout_marginRight="@dimen/dimen5"
+        android:layout_marginLeft="@dimen/dimen5"
+        app:corner_radius="6"
+        app:max_value="100"
+        app:bar_color="@color/graylight"
+        app:bar_highlight_color="@color/colorPrimary"
+        app:left_thumb_color="@color/colorPrimary"
+        app:left_thumb_color_pressed="@color/colorPrimary"
+        app:data_type="_integer"/>
+</LinearLayout>

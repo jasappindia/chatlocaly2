@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lighttransparentscreen"
+    android:layout_gravity="center"
+    tools:context="com.chatlocaly.fragment.filter.SortFragment">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dimen20"
+        android:background="@drawable/roundbox"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen20">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen10"
+        android:paddingLeft="@dimen/dimen10"
+        android:text="@string/str_sortbty"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/txt_medium" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="@dimen/dimen2"
+        android:layout_marginLeft="@dimen/dimen20"
+        android:layout_marginRight="@dimen/dimen20"
+        android:layout_marginTop="@dimen/dimen2"
+        android:background="@color/text_color_light"></View>
+
+    <CheckBox
+        android:id="@+id/cb_popularity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/dimen10"
+        android:button="@drawable/checkbox_change_state"
+        android:layout_marginRight="@dimen/dimen10"
+        android:layout_marginTop="@dimen/dimen5"
+        android:paddingLeft="@dimen/dimen10"
+        android:text="@string/popularity"
+        android:textColor="@color/black"
+        android:textSize="@dimen/txt_small" />
+
+
+
+    <CheckBox
+        android:id="@+id/cb_relevance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:checked="true"
+        android:layout_marginLeft="@dimen/dimen10"
+        android:layout_marginRight="@dimen/dimen10"
+        android:layout_marginTop="@dimen/dimen5"
+        android:button="@drawable/checkbox_change_state"
+        android:paddingLeft="@dimen/dimen10"
+        android:text="@string/relevance"
+        android:textColor="@color/black"
+        android:textSize="@dimen/txt_small" />
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/dimen10"
+            android:layout_marginTop="@dimen/dimen10"
+            android:gravity="right"
+            android:paddingLeft="@dimen/dimen10"
+            android:text="@string/str_cancel"
+            android:textSize="@dimen/txt_medium" />
+
+
+        <TextView
+            android:id="@+id/tv_done"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen10"
+            android:layout_marginTop="@dimen/dimen10"
+            android:layout_toLeftOf="@+id/tv_cancel"
+            android:gravity="right"
+            android:paddingLeft="@dimen/dimen10"
+            android:text="Done"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/txt_medium" />
+    </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

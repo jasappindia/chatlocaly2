@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:focusableInTouchMode="true"
+    android:paddingTop="@dimen/dimen20">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_sendbusiness"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.chatlocaly.imageView.CircleImageView
+                android:id="@+id/iv_userImage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/dimen10"
+                android:padding="@dimen/dimen5"
+                android:src="@mipmap/user_icon" />
+
+            <com.chatlocaly.textview.TextViewReguler
+                android:id="@+id/tv_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/dimen20"
+                android:layout_toRightOf="@+id/iv_userImage"
+                android:maxLength="25"
+                android:paddingLeft="@dimen/dimen15"
+                android:singleLine="true"
+                android:text=" Aditya Bhargava "
+                android:textSize="@dimen/txt_medium2" />
+
+            <RelativeLayout
+                android:id="@+id/rl_paytm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_userImage"
+                android:layout_marginTop="@dimen/dimen10"
+                android:background="@color/button_back"
+                android:padding="@dimen/dimen10"
+                android:visibility="gone">
+
+                <com.chatlocaly.textview.TextViewReguler
+                    android:id="@+id/tv_paytm_amount_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_paytm"
+                    android:text=" Current balance"
+                    android:textSize="@dimen/txt_small" />
+
+                <com.chatlocaly.textview.TextViewReguler
+                    android:id="@+id/tv_paytm_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/iv_paytm"
+                    android:layout_toRightOf="@+id/tv_paytm_amount_text"
+                    android:text=" Rs 500"
+                    android:textSize="@dimen/txt_small" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitStart"
+                    android:src="@mipmap/arrow_right" />
+
+                <ImageView
+                    android:id="@+id/iv_paytm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:paddingLeft="@dimen/dimen2"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/paytm" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divide_height"
+                android:layout_below="@+id/rl_paytm"
+                android:layout_marginBottom="@dimen/dimen10"
+                android:layout_marginTop="15dp"
+                android:background="@color/divider_color_light">
+
+            </View>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/drawerList"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:layout_below="@+id/view"
+                android:background="@android:color/white"
+                android:paddingLeft="@dimen/dimen10" />
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rl_sendbusiness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/button_back"
+        android:padding="@dimen/dimen10">
+
+        <com.chatlocaly.textview.TextViewReguler
+            android:id="@+id/tv_otherapplication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dimen10"
+            android:text="Do you own Business?"
+            android:textSize="@dimen/txt_medium" />
+
+        <com.chatlocaly.textview.TextViewReguler
+            android:id="@+id/tv_application_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_otherapplication"
+            android:text="ChatLocaly"
+            android:textColor="@color/text_color_light"
+            android:textSize="@dimen/txt_small"
+            android:visibility="gone" />
+
+        <com.chatlocaly.textview.TextViewReguler
+            android:id="@+id/tv_versioncode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_otherapplication"
+            android:text="1.0.2"
+            android:textColor="@color/text_color_light"
+            android:textSize="@dimen/txt_small" />
+    </RelativeLayout>
+</RelativeLayout>
